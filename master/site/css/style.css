@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+.background_header {
+  width: 100vw;
+  height: 70vh;
+  background: url("../img/solar_roadways.png") black;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  padding-left: 35vw;
+  padding-right: 35vw;
+}
+
+.header_logo {
+  width: 30vw;
+  height: auto;
+}
+
+nav {
+  width: 100vw;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a {
+  display: table-column;
+  text-align: center;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
