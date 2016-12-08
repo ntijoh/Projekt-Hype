@@ -6,31 +6,65 @@ body {
 
 
 .background_header {
-  width: 100vw;
-  height: 70vh;
+  width: 75vw;
+  height: 50vh;
   background: url("../img/solar_roadways.png") black;
-  background-size: 100vw auto;
+  background-size: 75vw auto;
   background-repeat: no-repeat;
-  padding-left: 35vw;
-  padding-right: 35vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header_logo {
-  width: 30vw;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
   height: auto;
 }
 
 nav {
-  width: 100vw;
-  background-color: yellow;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
-a {
-  display: table-column;
+.nav {
+  display: inline-block;
   text-align: center;
-  padding-right: 10vw;
-  padding-left: 10vw;
+  width: 75vw;
+  background-color: grey;
+  filter: blur(5px);
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.myButton:hover {
+	background-color:#b34332;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
